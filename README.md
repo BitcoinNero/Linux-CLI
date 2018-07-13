@@ -2,7 +2,7 @@
 
 ## Download Beta here
 ```
-wget http://bitcoinnero.org/linux-cli-v1.0.tar
+wget http://bitcoinnero.org/download/linux-cli-v1.0.tar
 tar -xvf linux-cli-v1.0.tar
 rm linux-cli-v1.0.tar
 cd linux-cli-v1.0
