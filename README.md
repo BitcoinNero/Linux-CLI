@@ -1,25 +1,25 @@
 # Linux-Cli
 
 ## Download Beta here
-
-https://btcnero.org/download/linux-cli
-
-## Run Daemon or Simple Wallet
+Login with root and download on root directory
 ```
-To open the wallet you will probably need to open the permissions:
--Click right on Daemon
--Properties
--Permissions
--Allow executing file as program
--Make the same for Wallet
+wget https://btcnero.org/download/linux-cli.zip
+wget https://btcnero.org/download/blockchain-import.zip
+apt-get install unzip
+unzip linux-cli.zip
+unzip blockchain-import.zip
+chmod u+x walletd
+chmod u+x miner
+chmod u+x bitcoinnerod
+chmod u+x simplewallet
+```
 
-To create a wallet:
--Launch the WALLET application
--Press G to generate a wallet (O to open)
--Set a name for the wallet and a password
+## Run Daemon
+```
+./bitcoinnerod
+```
 
-The application will generate two files one containing your access keys encrypted "NAME.wallet" 
-and a second with your public address, it is this one that will allow you to receive Bitcoin Nero.
-
-To make transactions and more open the Daemon application, wait for the end of the sync and then click HELP to know the functionality.
+## Create wallet
+```
+./simplewallet
 ```
