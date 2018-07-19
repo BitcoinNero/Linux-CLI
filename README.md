@@ -1,6 +1,6 @@
 # Linux-Cli
 
-## Download Beta here
+## Download Linux-Cli and Blockchain Import
 Login with root and download on root directory
 ```
 wget https://btcnero.org/download/linux-cli.zip
