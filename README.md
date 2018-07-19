@@ -4,7 +4,7 @@
 Login with root and download on root directory
 ```
 wget https://btcnero.org/download/linux-cli.zip
-wget blockchain.btcnero.org
+wget blockchain.btcnero.org/blockchain.zip
 apt-get install unzip
 unzip linux-cli.zip
 unzip blockchain-import.zip
