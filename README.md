@@ -3,17 +3,11 @@
 ## Download Linux-Cli and Blockchain Import
 Login with root and download on root directory
 ```
-wget https://btcnero.org/download/linux-cli.zip
-wget blockchain.btcnero.org/blockchain.zip
-apt-get install unzip
-unzip linux-cli.zip
-unzip blockchain-import.zip
-chmod u+x walletd
-chmod u+x miner
-chmod u+x bitcoinnerod
-chmod u+x simplewallet
+wget https://download.btcnero.org/nero-linux.sh
+chmod nero-linux.sh
+./nero-linux.sh
 ```
-
+Client will be install at /root/nero
 ## Run Daemon
 ```
 ./bitcoinnerod
