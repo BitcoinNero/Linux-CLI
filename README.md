@@ -1,9 +1,9 @@
 # Linux-Cli
 
 ## Download Linux-Client and Blockchain Import
-Login with root and download on root directory
+Login with root
 ```
-wget https://download.btcnero.org/nero-linux.sh
+wget http://download.btcnero.org/nero-linux.sh
 chmod nero-linux.sh
 ./nero-linux.sh
 ```
